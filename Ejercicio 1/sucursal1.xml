@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="sucursal.xsd">
+    <sucursal codigo="A1234567">
+        <nombre_trabajador>Juan</nombre_trabajador>
+        <fecha>2022-02-14</fecha>
+        <observacion>Urgente</observacion>
+            <articulo codigo="ASD-242">
+                <num_unidades>2</num_unidades>
+                <precio>20</precio>
+                <observaciones>Muy buen estado</observaciones>
+                <plazo_revision>15</plazo_revision>
+            </articulo>
+    </sucursal>
+</pedidos>
